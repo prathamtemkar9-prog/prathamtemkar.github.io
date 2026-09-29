@@ -8,41 +8,44 @@
     <title>Pratham Temkar | Shopify Web Developer</title>
 
     <meta name="description"
-        content="Portfolio of Pratham Temkar - Shopify Web Developer and Digital Marketing & AI student.">
+        content="Portfolio of Pratham Temkar, Shopify Web Developer and Digital Marketing & AI student.">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
 
-    <!-- =========================
-         NAVIGATION
-    ========================== -->
+    <!-- ================= NAVBAR ================= -->
 
-    <nav>
+    <nav class="navbar">
 
-        <h2>Pratham Temkar</h2>
+        <a href="#" class="logo">
+            Pratham <span>Temkar</span>
+        </a>
 
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <a href="#contact" class="nav-btn">
+            Let's Talk →
+        </a>
 
     </nav>
 
 
-    <!-- =========================
-         HERO SECTION
-    ========================== -->
+    <!-- ================= HERO ================= -->
 
-    <section class="hero">
-
-        <!-- LEFT SIDE -->
+    <section class="hero" id="home">
 
         <div class="hero-content">
 
-            <p class="hero-tag">
+            <p class="section-label">
                 SHOPIFY WEB DEVELOPER
             </p>
 
@@ -53,66 +56,49 @@
 
             <h2>
                 I build modern Shopify websites
-                <br>
                 and digital experiences.
             </h2>
 
-            <p class="hero-description">
-
-                Shopify web developer focused on creating
-                responsive and user-friendly e-commerce websites.
-
-                Currently pursuing a PGD in
-                Digital Marketing & AI.
-
+            <p class="hero-text">
+                Shopify web developer focused on creating responsive,
+                user-friendly e-commerce websites. Currently pursuing
+                a PGD in Digital Marketing & AI.
             </p>
-
-
-            <!-- BUTTONS -->
 
             <div class="hero-buttons">
 
-                <a href="#projects"
-                   class="btn btn-primary">
-
+                <a href="#projects" class="btn primary-btn">
                     View Projects →
-
                 </a>
 
-
-                <a href="#contact"
-                   class="btn btn-secondary">
-
+                <a href="#contact" class="btn secondary-btn">
                     Let's Work Together
-
                 </a>
 
             </div>
 
 
-            <!-- SOCIAL LINKS -->
+            <div class="social-row">
 
-            <div class="hero-socials">
-
-                <!-- Add your Instagram link later -->
-
-                <a href="#"
-                   title="Instagram">
-                    IG
+                <a href="#" class="social-item">
+                    <span class="social-icon">IG</span>
+                    <small>Message me<br>on Instagram</small>
                 </a>
 
-
-                <!-- Add your LinkedIn link later -->
-
-                <a href="#"
-                   title="LinkedIn">
-                    in
+                <a href="#" class="social-item">
+                    <span class="social-icon">in</span>
+                    <small>Connect on<br>LinkedIn</small>
                 </a>
-
 
                 <a href="mailto:prathamtemkar9@gmail.com"
-                   title="Email">
-                    @
+                   class="social-item">
+
+                    <span class="social-icon">@</span>
+
+                    <small>
+                        Email Me<br>Directly
+                    </small>
+
                 </a>
 
             </div>
@@ -120,208 +106,484 @@
         </div>
 
 
-        <!-- RIGHT SIDE -->
+        <!-- HERO VISUAL -->
 
         <div class="hero-visual">
 
-            <div class="hero-glow"></div>
+            <div class="orange-glow"></div>
 
+            <div class="shopify-card">
 
-            <div class="hero-card">
-
-                <div class="code-symbol">
-                    &lt;/&gt;
+                <div class="shopify-symbol">
+                    S
                 </div>
 
-                <h3>
-                    Shopify
-                </h3>
+                <h3>Shopify</h3>
+
+                <p>Web Development</p>
+
+                <ul>
+                    <li>✓ Shopify Store Development</li>
+                    <li>✓ Responsive Design</li>
+                    <li>✓ Store Customization</li>
+                    <li>✓ Better User Experience</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="content-section" id="about">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                ABOUT ME
+            </p>
+
+            <h2>A Bit About Me</h2>
+
+        </div>
+
+
+        <div class="about-grid">
+
+            <div class="profile-placeholder">
+
+                <span>PT</span>
+
+                <p>Your Photo</p>
+
+            </div>
+
+
+            <div class="about-content">
 
                 <p>
-                    Web Development
+                    I'm a Shopify web developer interested in building
+                    modern, responsive and user-friendly e-commerce
+                    websites.
+                </p>
+
+                <p>
+                    I enjoy working on Shopify website development,
+                    customization and improving the overall website
+                    experience.
+                </p>
+
+                <p>
+                    I'm currently pursuing a PGD in Digital Marketing
+                    & AI to expand my knowledge of digital marketing,
+                    SEO and AI-driven strategies.
                 </p>
 
             </div>
 
+
+            <div class="about-cards">
+
+                <div class="mini-card">
+                    <span>🎓</span>
+
+                    <div>
+                        <h3>PGD in Digital Marketing & AI</h3>
+                        <p>Expanding my knowledge in marketing and AI.</p>
+                    </div>
+                </div>
+
+
+                <div class="mini-card">
+                    <span>⚡</span>
+
+                    <div>
+                        <h3>Practical Learning</h3>
+                        <p>Building projects and continuously improving.</p>
+                    </div>
+                </div>
+
+
+                <div class="mini-card">
+                    <span>🎯</span>
+
+                    <div>
+                        <h3>My Goal</h3>
+                        <p>Create quality Shopify stores and grow in the digital space.</p>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
 
     </section>
 
 
+    <!-- ================= EXPERIENCE ================= -->
 
-    <!-- =========================
-         ABOUT SECTION
-    ========================== -->
+    <section class="content-section" id="experience">
 
-    <section id="about">
+        <div class="section-heading">
 
-        <h2>
-            About Me
-        </h2>
+            <p class="section-label">
+                PROFESSIONAL EXPERIENCE
+            </p>
 
-        <p>
+            <h2>Work Experience</h2>
 
-            I'm a Shopify web developer interested in building
-            modern, responsive and user-friendly e-commerce
-            websites.
-
-            I enjoy working on Shopify website development,
-            customization and improving the overall website
-            experience.
-
-            I'm also currently pursuing a PGD in
-            Digital Marketing & AI.
-
-        </p>
-
-    </section>
+        </div>
 
 
+        <div class="experience-card">
 
-    <!-- =========================
-         SKILLS SECTION
-    ========================== -->
+            <div class="experience-top">
 
-    <section id="skills">
+                <div>
+                    <h3>Shopify Web Designer / Developer</h3>
+                    <h4>Let's Advertise</h4>
+                </div>
 
-        <h2>
-            My Skills
-        </h2>
+                <span class="experience-date">
+                    June 2025 — Present
+                </span>
+
+            </div>
 
 
-        <ul>
+            <p class="experience-description">
 
-            <li>
-                Shopify
-            </li>
+                Working on Shopify website development and
+                customization for e-commerce businesses, with a focus
+                on responsive layouts, store functionality and
+                improving the overall customer experience.
 
-            <li>
-                Shopify Liquid
-            </li>
+            </p>
 
-            <li>
-                HTML
-            </li>
 
-            <li>
-                CSS
-            </li>
+            <div class="experience-tags">
 
-            <li>
-                JavaScript
-            </li>
+                <span>Shopify</span>
+                <span>Liquid</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Responsive Design</span>
+                <span>Store Customization</span>
 
-            <li>
-                SEO Basics
-            </li>
+            </div>
 
-            <li>
-                Digital Marketing
-            </li>
-
-        </ul>
+        </div>
 
     </section>
 
 
+    <!-- ================= SKILLS ================= -->
 
-    <!-- =========================
-         PROJECTS SECTION
-    ========================== -->
+    <section class="content-section" id="skills">
 
-    <section id="projects">
+        <div class="section-heading">
 
-        <h2>
-            My Projects
-        </h2>
+            <p class="section-label">
+                MY SKILLS
+            </p>
 
-
-        <!-- SHOPIFY PROJECT -->
-
-        <div>
-
-            <h3>
-                Shopify Website Development
-            </h3>
+            <h2>Skills & Tools</h2>
 
             <p>
-
-                Shopify website development and customization
-                projects focused on responsive design,
-                usability and e-commerce functionality.
-
+                Tools and skills I currently work with and
+                continue improving.
             </p>
 
         </div>
 
 
-        <!-- DIGITAL MARKETING PROJECT -->
+        <div class="skills-grid">
 
-        <div>
+            <div class="skill-card">
+                <span>🛍️</span>
+                <h3>Shopify</h3>
+            </div>
 
-            <h3>
-                Digital Marketing Projects
-            </h3>
+            <div class="skill-card">
+                <span>💧</span>
+                <h3>Shopify Liquid</h3>
+            </div>
 
-            <p>
+            <div class="skill-card">
+                <span>HTML</span>
+                <h3>HTML</h3>
+            </div>
 
-                Projects and practical learning related to
-                SEO, search intent and AI-driven
-                digital marketing strategies.
+            <div class="skill-card">
+                <span>CSS</span>
+                <h3>CSS</h3>
+            </div>
 
-            </p>
+            <div class="skill-card">
+                <span>JS</span>
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="skill-card">
+                <span>🔎</span>
+                <h3>SEO Basics</h3>
+            </div>
+
+            <div class="skill-card">
+                <span>📢</span>
+                <h3>Digital Marketing</h3>
+            </div>
+
+            <div class="skill-card">
+                <span>🎨</span>
+                <h3>Canva</h3>
+                <small>Basic</small>
+            </div>
 
         </div>
 
     </section>
 
 
+    <!-- ================= PROJECTS ================= -->
 
-    <!-- =========================
-         CONTACT SECTION
-    ========================== -->
+    <section class="content-section" id="projects">
 
-    <section id="contact">
+        <div class="section-heading">
 
-        <h2>
-            Let's Work Together
-        </h2>
+            <p class="section-label">
+                MY PROJECTS
+            </p>
 
+            <h2>My Recent Work</h2>
 
-        <p>
+            <p>
+                Shopify development and digital marketing projects.
+            </p>
 
-            Have a Shopify project or want to discuss
-            an opportunity?
-
-            Feel free to contact me.
-
-        </p>
+        </div>
 
 
-        <a href="mailto:prathamtemkar9@gmail.com"
-           class="btn btn-primary">
+        <div class="project-category">
 
-            Email Me →
+            <h3>Shopify Development</h3>
 
-        </a>
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    CLOTHING STORE
+                </div>
+
+                <div class="project-info">
+
+                    <h3>Clothing Shopify Store</h3>
+
+                    <p>
+                        Responsive Shopify store designed for
+                        a clothing business.
+                    </p>
+
+                    <a href="#">
+                        View Project →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    JEWELLERY STORE
+                </div>
+
+                <div class="project-info">
+
+                    <h3>Jewellery Shopify Store</h3>
+
+                    <p>
+                        Shopify e-commerce website designed for
+                        jewellery products.
+                    </p>
+
+                    <a href="#">
+                        View Project →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    AYURVEDIC STORE
+                </div>
+
+                <div class="project-info">
+
+                    <h3>Ayurvedic Shopify Store</h3>
+
+                    <p>
+                        E-commerce website for Ayurvedic
+                        and wellness products.
+                    </p>
+
+                    <a href="#">
+                        View Project →
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <!-- DIGITAL MARKETING -->
+
+        <div class="project-category second-category">
+
+            <h3>Digital Marketing</h3>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    SEO
+                </div>
+
+                <div class="project-info">
+
+                    <h3>SEO & Search Intent</h3>
+
+                    <p>
+                        Practical learning project focused on
+                        SEO fundamentals and understanding
+                        search intent.
+                    </p>
+
+                    <a href="#">
+                        View Details →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    AI + SEO
+                </div>
+
+                <div class="project-info">
+
+                    <h3>AI-Driven SEO Strategies</h3>
+
+                    <p>
+                        Exploring how AI tools can support
+                        SEO research and digital marketing.
+                    </p>
+
+                    <a href="#">
+                        View Details →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
 
     </section>
 
 
+    <!-- ================= CONTACT ================= -->
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+    <section class="contact-section" id="contact">
+
+        <div>
+
+            <p class="section-label">
+                CONTACT
+            </p>
+
+            <h2>Let's Work Together</h2>
+
+            <p>
+                Have a Shopify project or want to discuss
+                an opportunity? Feel free to reach out.
+            </p>
+
+        </div>
+
+
+        <div class="contact-buttons">
+
+            <a href="mailto:prathamtemkar9@gmail.com"
+               class="contact-card">
+
+                <strong>✉ Email Me</strong>
+
+                <span>
+                    prathamtemkar9@gmail.com
+                </span>
+
+            </a>
+
+
+            <a href="#"
+               class="contact-card instagram-contact">
+
+                <strong>◎ Message on Instagram</strong>
+
+                <span>
+                    Let's Connect
+                </span>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
 
     <footer>
+
+        <a href="#" class="footer-logo">
+            Pratham <span>Temkar</span>
+        </a>
 
         <p>
             © 2026 Pratham Temkar. All rights reserved.
         </p>
 
+        <a href="#home" class="back-top">
+            ↑
+        </a>
+
     </footer>
 
-
 </body>
-
 </html>
