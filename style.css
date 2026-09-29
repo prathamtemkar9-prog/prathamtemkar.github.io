@@ -1,147 +1,439 @@
-/* Basic Reset */
+/* ==============================
+   RESET
+============================== */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #222;
-    background: #f7f7f7;
+html {
+    scroll-behavior: smooth;
 }
 
-/* Navigation */
+body {
+    font-family: Arial, sans-serif;
+    background: #050505;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+
+/* ==============================
+   NAVIGATION
+============================== */
+
 nav {
-    background: #111;
-    color: white;
+    background: rgba(5, 5, 5, 0.92);
+    border-bottom: 1px solid #222;
     padding: 20px 8%;
+
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 30px;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav h2 {
     margin-right: auto;
+    color: #ffffff;
 }
 
 nav a {
-    color: white;
+    color: #aaaaaa;
     text-decoration: none;
-    font-size: 15px;
+    transition: 0.3s ease;
 }
 
 nav a:hover {
-    color: #00a8ff;
+    color: #ff6a00;
 }
 
-/* Sections */
-section {
-    padding: 80px 8%;
+
+/* ==============================
+   HERO
+============================== */
+
+.hero {
+    min-height: 90vh;
+    padding: 100px 8%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+    overflow: hidden;
 }
 
-/* Hero Section */
-section:first-of-type {
-    min-height: 80vh;
+
+/* Orange background glow */
+
+.hero::before {
+    content: "";
+    position: absolute;
+
+    width: 500px;
+    height: 500px;
+
+    background: #ff6a00;
+    opacity: 0.08;
+
+    border-radius: 50%;
+
+    filter: blur(120px);
+
+    right: -150px;
+    top: 50px;
+}
+
+
+/* Hero content */
+
+.hero-content {
+    max-width: 700px;
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Small heading */
+
+.hero-tag {
+    color: #ff6a00;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+
+/* Main heading */
+
+.hero h1 {
+    font-size: 64px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #ff6a00;
+}
+
+
+/* Sub heading */
+
+.hero h2 {
+    font-size: 30px;
+    color: #dddddd;
+    margin-bottom: 25px;
+    line-height: 1.3;
+}
+
+
+/* Description */
+
+.hero-description {
+    max-width: 600px;
+
+    color: #999999;
+
+    font-size: 17px;
+
+    margin-bottom: 35px;
+}
+
+
+/* ==============================
+   BUTTONS
+============================== */
+
+.hero-buttons {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+
+.btn {
+    display: inline-block;
+
+    padding: 14px 25px;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background 0.25s ease;
+}
+
+
+/* Orange button */
+
+.btn-primary {
+    background: #ff6a00;
+    color: #000000;
+
+    box-shadow:
+        0 5px 0 #a83f00,
+        0 10px 25px rgba(255, 106, 0, 0.15);
+}
+
+
+/* 3D pop */
+
+.btn-primary:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 9px 0 #a83f00,
+        0 15px 35px rgba(255, 106, 0, 0.3);
+}
+
+
+/* Secondary button */
+
+.btn-secondary {
+    border: 1px solid #444444;
+    color: #ffffff;
+    background: #111111;
+
+    box-shadow: 0 5px 0 #000000;
+}
+
+
+.btn-secondary:hover {
+    transform: translateY(-5px);
+
+    border-color: #ff6a00;
+
+    color: #ff6a00;
+
+    box-shadow:
+        0 9px 0 #000000,
+        0 12px 25px rgba(255, 106, 0, 0.15);
+}
+
+
+/* ==============================
+   SOCIAL LINKS
+============================== */
+
+.hero-socials {
+    display: flex;
+    gap: 12px;
+    margin-top: 35px;
+}
+
+.hero-socials a {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #333;
+    border-radius: 50%;
+
+    color: #aaa;
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+.hero-socials a:hover {
+    color: #ff6a00;
+    border-color: #ff6a00;
+
+    transform: translateY(-4px) scale(1.08);
+
+    box-shadow:
+        0 8px 20px rgba(255, 106, 0, 0.2);
+}
+
+
+/* ==============================
+   HERO VISUAL
+============================== */
+
+.hero-visual {
+    width: 350px;
+    height: 350px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+/* Orange glow */
+
+.hero-glow {
+    position: absolute;
+
+    width: 260px;
+    height: 260px;
+
+    background: #ff6a00;
+
+    opacity: 0.12;
+
+    border-radius: 50%;
+
+    filter: blur(60px);
+}
+
+
+/* Developer card */
+
+.hero-card {
+    width: 270px;
+    height: 270px;
+
+    background: #0d0d0d;
+
+    border: 1px solid #333;
+
+    border-radius: 25px;
+
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+
+    position: relative;
+    z-index: 2;
+
+    transition:
+        transform 0.4s ease,
+        border-color 0.4s ease,
+        box-shadow 0.4s ease;
 }
 
-section:first-of-type h1 {
-    font-size: 52px;
-    margin-bottom: 10px;
+
+/* 3D hover */
+
+.hero-card:hover {
+    transform:
+        translateY(-12px)
+        rotateX(4deg)
+        rotateY(-4deg);
+
+    border-color: #ff6a00;
+
+    box-shadow:
+        0 25px 50px rgba(0, 0, 0, 0.6),
+        0 0 35px rgba(255, 106, 0, 0.15);
 }
 
-section:first-of-type h2 {
+
+.code-symbol {
+    font-size: 70px;
+
+    color: #ff6a00;
+
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
+
+.hero-card h3 {
     font-size: 28px;
-    color: #00a8ff;
-    margin-bottom: 20px;
 }
 
-section:first-of-type p {
-    max-width: 600px;
-    font-size: 18px;
+.hero-card p {
+    color: #888;
+}
+
+
+/* ==============================
+   GENERAL SECTIONS
+============================== */
+
+section:not(.hero) {
+    padding: 90px 8%;
+}
+
+section:not(.hero) h2 {
+    font-size: 38px;
     margin-bottom: 25px;
 }
 
-section:first-of-type a {
-    display: inline-block;
-    width: fit-content;
-    background: #111;
-    color: white;
-    padding: 12px 22px;
-    text-decoration: none;
-    border-radius: 6px;
-}
 
-/* Headings */
-section h2 {
-    font-size: 32px;
-    margin-bottom: 25px;
-}
+/* ==============================
+   FOOTER
+============================== */
 
-/* Skills */
-#skills ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    list-style: none;
-}
-
-#skills li {
-    background: white;
-    padding: 10px 18px;
-    border-radius: 6px;
-    border: 1px solid #ddd;
-}
-
-/* Projects */
-#projects div {
-    background: white;
-    padding: 25px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-}
-
-#projects h3 {
-    margin-bottom: 10px;
-}
-
-/* Contact */
-#contact a {
-    color: #00a8ff;
-    text-decoration: none;
-}
-
-/* Footer */
 footer {
-    background: #111;
-    color: white;
+    background: #080808;
+
+    border-top: 1px solid #222;
+
+    color: #777;
+
     text-align: center;
-    padding: 20px;
+
+    padding: 25px;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
+
+/* ==============================
+   MOBILE
+============================== */
+
+@media (max-width: 800px) {
 
     nav {
+        padding: 18px 5%;
+        gap: 15px;
         flex-wrap: wrap;
     }
 
     nav h2 {
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
-    section:first-of-type h1 {
-        font-size: 38px;
+    .hero {
+        padding: 80px 6%;
+        flex-direction: column;
+        text-align: center;
     }
 
-    section:first-of-type h2 {
+    .hero h1 {
+        font-size: 44px;
+    }
+
+    .hero h2 {
         font-size: 24px;
+    }
+
+    .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-socials {
+        justify-content: center;
+    }
+
+    .hero-visual {
+        margin-top: 60px;
     }
 }
