@@ -1,6 +1,6 @@
 /* =========================================================
    PRATHAM TEMKAR PORTFOLIO
-   DARK + ORANGE DESIGN
+   DARK + ORANGE
 ========================================================= */
 
 * {
@@ -19,7 +19,6 @@ html {
     --black: #050606;
     --dark: #080a0a;
     --card: #0c0e0e;
-    --card-light: #101212;
     --white: #ffffff;
     --text: #c9cccc;
     --muted: #858989;
@@ -39,10 +38,6 @@ a {
     text-decoration: none;
 }
 
-button {
-    font-family: inherit;
-}
-
 img {
     display: block;
     max-width: 100%;
@@ -56,7 +51,6 @@ img {
 .navbar {
     width: min(92%, 1500px);
     height: 76px;
-
     margin: 18px auto 0;
     padding: 0 28px;
 
@@ -71,7 +65,6 @@ img {
     background: rgba(9, 10, 10, 0.94);
     border: 1px solid var(--border);
     border-radius: 16px;
-
     backdrop-filter: blur(15px);
 }
 
@@ -115,7 +108,6 @@ img {
     font-weight: 800;
 
     box-shadow: 0 4px 0 #a84300;
-
     transition: 0.2s ease;
 }
 
@@ -136,7 +128,6 @@ img {
     height: 42px;
 
     background: var(--card);
-
     border: 1px solid var(--border);
     border-radius: 8px;
 
@@ -156,7 +147,7 @@ img {
 
 
 /* =========================================================
-   GENERAL SECTION DESIGN
+   GENERAL
 ========================================================= */
 
 .section-label {
@@ -166,7 +157,6 @@ img {
     font-weight: 900;
 
     letter-spacing: 4px;
-
     text-transform: uppercase;
 }
 
@@ -174,7 +164,6 @@ img {
     width: min(92%, 1500px);
 
     margin: 22px auto;
-
     padding: 70px;
 
     background: var(--dark);
@@ -200,7 +189,6 @@ img {
     margin-top: 10px;
 
     color: var(--muted);
-
     font-size: 14px;
 }
 
@@ -214,19 +202,15 @@ img {
     min-height: 650px;
 
     margin: 22px auto;
-
     padding: 75px 70px;
 
     display: grid;
-
     grid-template-columns: 1.15fr 0.85fr;
-
     align-items: center;
 
     gap: 65px;
 
     position: relative;
-
     overflow: hidden;
 
     background:
@@ -238,7 +222,6 @@ img {
         var(--dark);
 
     border: 1px solid var(--border);
-
     border-radius: 24px;
 }
 
@@ -251,15 +234,12 @@ img {
     margin-top: 10px;
 
     font-size: clamp(46px, 6vw, 78px);
-
     line-height: 0.98;
-
     letter-spacing: -3px;
 }
 
 .hero h1 span {
     display: block;
-
     color: var(--orange);
 }
 
@@ -271,7 +251,6 @@ img {
     color: #dedede;
 
     font-size: clamp(21px, 2.3vw, 31px);
-
     line-height: 1.25;
 }
 
@@ -281,14 +260,11 @@ img {
     margin-top: 20px;
 
     color: var(--muted);
-
     font-size: 14px;
 }
 
 
-/* =========================================================
-   HERO BUTTONS
-========================================================= */
+/* HERO BUTTONS */
 
 .hero-buttons {
     display: flex;
@@ -305,9 +281,7 @@ img {
     padding: 0 21px;
 
     display: inline-flex;
-
     align-items: center;
-
     justify-content: center;
 
     gap: 9px;
@@ -315,7 +289,6 @@ img {
     border-radius: 9px;
 
     font-size: 13px;
-
     font-weight: 800;
 
     transition: 0.25s ease;
@@ -323,7 +296,6 @@ img {
 
 .primary-btn {
     background: var(--orange);
-
     color: #050505;
 
     box-shadow: 0 5px 0 #a84300;
@@ -331,13 +303,11 @@ img {
 
 .primary-btn:hover {
     transform: translateY(-3px);
-
     box-shadow: 0 8px 0 #a84300;
 }
 
 .secondary-btn {
     background: var(--card);
-
     border: 1px solid var(--border);
 }
 
@@ -350,9 +320,7 @@ img {
 }
 
 
-/* =========================================================
-   HERO SOCIAL LINKS
-========================================================= */
+/* SOCIAL LINKS */
 
 .social-row {
     display: flex;
@@ -365,7 +333,6 @@ img {
 
 .social-item {
     display: flex;
-
     align-items: center;
 
     gap: 9px;
@@ -382,15 +349,12 @@ img {
     height: 36px;
 
     display: grid;
-
     place-items: center;
 
     color: var(--orange);
 
     background: rgba(255, 106, 0, 0.07);
-
     border: 1px solid rgba(255, 106, 0, 0.25);
-
     border-radius: 8px;
 }
 
@@ -402,7 +366,6 @@ img {
     color: #aaa;
 
     font-size: 10px;
-
     line-height: 1.3;
 }
 
@@ -415,7 +378,6 @@ img {
     min-height: 430px;
 
     display: grid;
-
     place-items: center;
 
     position: relative;
@@ -440,7 +402,6 @@ img {
     padding: 38px;
 
     position: relative;
-
     z-index: 2;
 
     background:
@@ -452,7 +413,6 @@ img {
         #0b0d0d;
 
     border: 1px solid rgba(255, 106, 0, 0.27);
-
     border-radius: 23px;
 
     box-shadow:
@@ -480,13 +440,11 @@ img {
     height: 67px;
 
     display: grid;
-
     place-items: center;
 
     margin-bottom: 22px;
 
     background: var(--orange);
-
     color: #050505;
 
     border-radius: 17px;
@@ -508,19 +466,16 @@ img {
     color: var(--orange);
 
     font-size: 13px;
-
     font-weight: 700;
 }
 
 .shopify-card ul {
     list-style: none;
-
     margin-top: 24px;
 }
 
 .shopify-card li {
     display: flex;
-
     align-items: center;
 
     gap: 10px;
@@ -556,21 +511,16 @@ img {
     gap: 45px;
 }
 
-
-/* PROFILE PHOTO */
-
 .profile-photo {
     width: 270px;
     height: 340px;
 
     position: relative;
-
     overflow: hidden;
 
     background: var(--card);
 
     border: 1px solid rgba(255, 106, 0, 0.35);
-
     border-radius: 20px;
 
     box-shadow:
@@ -595,7 +545,6 @@ img {
     height: 100%;
 
     object-fit: cover;
-
     object-position: center top;
 
     transition: 0.35s ease;
@@ -604,9 +553,6 @@ img {
 .profile-photo:hover img {
     transform: scale(1.025);
 }
-
-
-/* ABOUT TEXT */
 
 .about-content {
     min-width: 0;
@@ -620,12 +566,8 @@ img {
     font-size: 14px;
 }
 
-
-/* ABOUT CARDS */
-
 .about-cards {
     display: flex;
-
     flex-direction: column;
 
     gap: 12px;
@@ -635,7 +577,6 @@ img {
     padding: 16px;
 
     display: flex;
-
     align-items: center;
 
     gap: 13px;
@@ -643,7 +584,6 @@ img {
     background: var(--card);
 
     border: 1px solid var(--border);
-
     border-radius: 12px;
 
     transition: 0.25s ease;
@@ -661,7 +601,6 @@ img {
     height: 36px;
 
     display: grid;
-
     place-items: center;
 
     color: var(--orange);
@@ -673,7 +612,6 @@ img {
 
 .mini-card h3 {
     font-size: 13px;
-
     line-height: 1.3;
 }
 
@@ -702,7 +640,6 @@ img {
         var(--card);
 
     border: 1px solid var(--border);
-
     border-radius: 17px;
 
     transition: 0.3s ease;
@@ -716,7 +653,6 @@ img {
 
 .experience-top {
     display: flex;
-
     justify-content: space-between;
 
     gap: 30px;
@@ -736,7 +672,6 @@ img {
 
 .experience-date {
     min-width: 250px;
-
     text-align: right;
 }
 
@@ -791,7 +726,6 @@ img {
 .experience-tags,
 .project-tags {
     display: flex;
-
     flex-wrap: wrap;
 
     gap: 7px;
@@ -808,7 +742,6 @@ img {
     background: rgba(255, 106, 0, 0.07);
 
     border: 1px solid rgba(255, 106, 0, 0.17);
-
     border-radius: 5px;
 
     font-size: 9px;
@@ -816,16 +749,183 @@ img {
 
 
 /* =========================================================
-   SKILLS — COMPACT VERSION
+   RESULTS I'VE DELIVERED
+========================================================= */
+
+.results-section {
+    width: min(92%, 1500px);
+
+    margin: 22px auto;
+    padding: 60px 70px;
+
+    position: relative;
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 85% 25%,
+            rgba(255, 106, 0, 0.08),
+            transparent 30%
+        ),
+        var(--dark);
+
+    border: 1px solid var(--border);
+    border-radius: 24px;
+}
+
+.results-heading {
+    margin-bottom: 34px;
+}
+
+.results-heading h2 {
+    margin-top: 5px;
+
+    font-size: clamp(30px, 4vw, 44px);
+    line-height: 1.15;
+}
+
+.results-heading h2 span {
+    color: var(--orange);
+}
+
+.results-subtitle {
+    max-width: 650px;
+
+    margin-top: 10px;
+
+    color: var(--muted);
+
+    font-size: 14px;
+}
+
+
+/* RESULTS GRID */
+
+.results-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    gap: 14px;
+}
+
+
+/* RESULT CARD */
+
+.result-card {
+    min-height: 190px;
+
+    padding: 22px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.025),
+            transparent
+        ),
+        var(--card);
+
+    border: 1px solid var(--border);
+    border-radius: 15px;
+
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.result-card:hover {
+    transform: translateY(-6px);
+
+    border-color: rgba(255, 106, 0, 0.40);
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.32),
+        0 0 24px rgba(255, 106, 0, 0.06);
+}
+
+
+/* RESULT ICON */
+
+.result-icon {
+    width: 42px;
+    height: 42px;
+
+    display: grid;
+    place-items: center;
+
+    margin-bottom: 15px;
+
+    color: var(--orange);
+
+    background: rgba(255, 106, 0, 0.08);
+
+    border: 1px solid rgba(255, 106, 0, 0.25);
+    border-radius: 9px;
+
+    font-size: 18px;
+}
+
+
+/* NUMBER */
+
+.result-content h3 {
+    display: flex;
+    align-items: baseline;
+
+    color: var(--white);
+
+    font-size: clamp(34px, 3.2vw, 48px);
+
+    line-height: 1;
+
+    font-weight: 900;
+
+    letter-spacing: -1px;
+}
+
+.result-content .plus {
+    color: var(--orange);
+}
+
+
+/* RESULT TITLE */
+
+.result-content h4 {
+    margin-top: 10px;
+
+    color: var(--white);
+
+    font-size: 13px;
+
+    line-height: 1.3;
+}
+
+
+/* RESULT DESCRIPTION */
+
+.result-content p {
+    margin-top: 8px;
+
+    color: var(--muted);
+
+    font-size: 10px;
+
+    line-height: 1.55;
+}
+
+
+/* =========================================================
+   SKILLS — COMPACT
 ========================================================= */
 
 #skills {
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #skills .section-heading {
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 }
 
 .skills-grid {
@@ -837,24 +937,19 @@ img {
 }
 
 .skill-card {
-    min-height: 72px;
+    min-height: 68px;
 
-    padding: 14px 16px;
+    padding: 13px 15px;
 
     display: flex;
-
     flex-direction: row;
-
     align-items: center;
-
-    justify-content: flex-start;
 
     gap: 11px;
 
     background: var(--card);
 
     border: 1px solid var(--border);
-
     border-radius: 11px;
 
     transition: 0.25s ease;
@@ -871,14 +966,11 @@ img {
 }
 
 .skill-card > span {
-    width: 36px;
-    height: 36px;
-    min-width: 36px;
-
-    margin: 0;
+    width: 34px;
+    height: 34px;
+    min-width: 34px;
 
     display: grid;
-
     place-items: center;
 
     color: var(--orange);
@@ -887,17 +979,11 @@ img {
 
     border-radius: 8px;
 
-    font-size: 18px;
-}
-
-.skill-card > span i {
-    font-size: inherit;
+    font-size: 17px;
 }
 
 .skill-card h3 {
-    margin: 0;
-
-    font-size: 13px;
+    font-size: 12px;
 
     line-height: 1.2;
 }
@@ -921,7 +1007,6 @@ img {
 
 .project-category h3 {
     display: flex;
-
     align-items: center;
 
     gap: 9px;
@@ -937,9 +1022,6 @@ img {
     margin-top: 50px;
 }
 
-
-/* 2 × 2 PROJECT LAYOUT */
-
 .projects-grid {
     display: grid;
 
@@ -954,7 +1036,6 @@ img {
     background: var(--card);
 
     border: 1px solid var(--border);
-
     border-radius: 17px;
 
     transition: 0.3s ease;
@@ -974,11 +1055,8 @@ img {
     min-height: 210px;
 
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
-
     justify-content: center;
 
     gap: 12px;
@@ -1004,7 +1082,6 @@ img {
     color: #aaa;
 
     font-size: 9px;
-
     font-weight: 800;
 
     letter-spacing: 2px;
@@ -1030,7 +1107,6 @@ img {
 
 .project-info a {
     display: inline-flex;
-
     align-items: center;
 
     gap: 7px;
@@ -1040,7 +1116,6 @@ img {
     color: var(--orange);
 
     font-size: 11px;
-
     font-weight: 800;
 
     transition: 0.2s ease;
@@ -1059,7 +1134,6 @@ img {
     padding: 30px;
 
     display: flex;
-
     align-items: center;
 
     gap: 24px;
@@ -1073,7 +1147,6 @@ img {
         var(--card);
 
     border: 1px solid rgba(255, 106, 0, 0.2);
-
     border-radius: 17px;
 }
 
@@ -1083,7 +1156,6 @@ img {
     height: 72px;
 
     display: grid;
-
     place-items: center;
 
     color: var(--orange);
@@ -1091,7 +1163,6 @@ img {
     background: rgba(255, 106, 0, 0.08);
 
     border: 1px solid rgba(255, 106, 0, 0.2);
-
     border-radius: 15px;
 
     font-size: 26px;
@@ -1117,7 +1188,6 @@ img {
     display: inline-block;
 
     margin-top: 12px;
-
     padding: 6px 10px;
 
     color: var(--orange);
@@ -1125,11 +1195,9 @@ img {
     background: rgba(255, 106, 0, 0.08);
 
     border: 1px solid rgba(255, 106, 0, 0.2);
-
     border-radius: 6px;
 
     font-size: 9px;
-
     font-weight: 800;
 }
 
@@ -1142,7 +1210,6 @@ img {
     width: min(92%, 1500px);
 
     margin: 22px auto;
-
     padding: 60px 70px;
 
     display: grid;
@@ -1162,7 +1229,6 @@ img {
         var(--dark);
 
     border: 1px solid var(--border);
-
     border-radius: 24px;
 }
 
@@ -1192,9 +1258,7 @@ img {
     padding: 17px 19px;
 
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
 
     gap: 18px;
@@ -1202,7 +1266,6 @@ img {
     background: var(--card);
 
     border: 1px solid var(--border);
-
     border-radius: 11px;
 
     transition: 0.25s ease;
@@ -1216,7 +1279,6 @@ img {
 
 .contact-card strong {
     display: flex;
-
     align-items: center;
 
     gap: 8px;
@@ -1243,19 +1305,15 @@ footer {
     width: min(92%, 1500px);
 
     margin: 22px auto 35px;
-
     padding: 22px 27px;
 
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
 
     background: var(--dark);
 
     border: 1px solid var(--border);
-
     border-radius: 15px;
 }
 
@@ -1270,7 +1328,6 @@ footer p {
     height: 36px;
 
     display: grid;
-
     place-items: center;
 
     color: var(--orange);
@@ -1278,7 +1335,6 @@ footer p {
     background: var(--card);
 
     border: 1px solid var(--border);
-
     border-radius: 8px;
 
     transition: 0.25s ease;
@@ -1299,6 +1355,7 @@ footer p {
 
     .content-section,
     .hero,
+    .results-section,
     .contact-section {
         padding-left: 42px;
         padding-right: 42px;
@@ -1306,13 +1363,11 @@ footer p {
 
     .hero {
         grid-template-columns: 1fr 0.8fr;
-
         gap: 35px;
     }
 
     .about-grid {
         grid-template-columns: 250px 1fr;
-
         gap: 35px;
     }
 
@@ -1325,8 +1380,11 @@ footer p {
         grid-column: 1 / -1;
 
         display: grid;
-
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .results-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .skills-grid {
@@ -1363,7 +1421,6 @@ footer p {
         position: absolute;
 
         top: 76px;
-
         left: 0;
 
         width: 100%;
@@ -1371,7 +1428,6 @@ footer p {
         padding: 16px;
 
         flex-direction: column;
-
         align-items: stretch;
 
         gap: 4px;
@@ -1379,7 +1435,6 @@ footer p {
         background: #0b0d0d;
 
         border: 1px solid var(--border);
-
         border-radius: 13px;
     }
 
@@ -1414,6 +1469,7 @@ footer p {
     /* SECTIONS */
 
     .content-section,
+    .results-section,
     .contact-section {
         padding: 55px 28px;
     }
@@ -1429,7 +1485,6 @@ footer p {
 
     .profile-photo {
         width: min(100%, 280px);
-
         height: 350px;
 
         margin: 0 auto;
@@ -1450,12 +1505,18 @@ footer p {
 
     .experience-date {
         min-width: 0;
-
         text-align: left;
     }
 
     .experience-highlights {
         grid-template-columns: 1fr;
+    }
+
+
+    /* RESULTS */
+
+    .results-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 
 
@@ -1496,6 +1557,7 @@ footer p {
 
     .hero,
     .content-section,
+    .results-section,
     .contact-section {
         width: 94%;
 
@@ -1512,7 +1574,6 @@ footer p {
 
     .hero h1 {
         font-size: 45px;
-
         letter-spacing: -2px;
     }
 
@@ -1541,12 +1602,34 @@ footer p {
 
     .profile-photo {
         width: min(100%, 250px);
-
         height: 315px;
     }
 
 
-    /* COMPACT SKILLS MOBILE */
+    /* RESULTS */
+
+    .results-section {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .results-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .result-card {
+        min-height: auto;
+
+        padding: 18px;
+    }
+
+    .result-content h3 {
+        font-size: 38px;
+    }
+
+
+    /* SKILLS */
 
     .skills-grid {
         grid-template-columns: 1fr 1fr;
@@ -1555,21 +1638,19 @@ footer p {
     }
 
     .skill-card {
-        min-height: 64px;
+        min-height: 62px;
 
-        padding: 11px;
+        padding: 10px;
 
         gap: 8px;
     }
 
     .skill-card > span {
-        width: 31px;
+        width: 30px;
+        min-width: 30px;
+        height: 30px;
 
-        min-width: 31px;
-
-        height: 31px;
-
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .skill-card h3 {
@@ -1603,7 +1684,6 @@ footer p {
 
     .coming-soon-card {
         flex-direction: column;
-
         align-items: flex-start;
     }
 
@@ -1612,7 +1692,6 @@ footer p {
 
     .contact-card {
         flex-direction: column;
-
         align-items: flex-start;
 
         gap: 6px;
